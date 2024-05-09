@@ -1,6 +1,9 @@
 .titolo h2{
-    color: #FFFFFF;
+    display: flex;
+    color: black;
     font-size: 80px;
-    background-color: red;
     border-top: 2px #343434;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
