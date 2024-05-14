@@ -1,9 +1,28 @@
-.titolo h2{
+ 
+  
+  
+.container1{
     display: flex;
-    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
+.titolo h2{
+    color: #FFFFFF;
     font-size: 80px;
-    border-top: 2px #343434;
-    flex-direction: row;
+    margin-top: 2px #343434;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sottotitolo p{
+    color: #FFFFFF;
+    font-size: 30px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

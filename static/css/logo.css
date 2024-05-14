@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+
+.logo{
+    background-image: url(//static/img/logo.png);
+    flex-direction: row;
+    justify-content: flex-start;
+}
