@@ -1,9 +1,8 @@
-.container{
-    display: flex;
-}
+
 
 .logo{
-    background-image: url(//static/img/logo.png);
+    display: flex;
+    background-image: url(//static/img/logotipo.png);
     flex-direction: row;
     justify-content: flex-start;
 }

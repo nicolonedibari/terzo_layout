@@ -1,0 +1,11 @@
+
+.bottone a:link,
+.bottone a:visited,
+.bottone a:hover,
+.bottone a:active{
+    background-color: #FFFFFF;
+    color: #080C71;
+    height: 64px;
+    width: 388px;
+    border-top: 3px solid #FFFFFF;
+}
