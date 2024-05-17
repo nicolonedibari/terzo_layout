@@ -3,6 +3,6 @@
 .logo{
     display: flex;
     background-image: url(//static/img/logotipo.png);
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
 }

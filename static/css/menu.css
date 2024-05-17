@@ -1,16 +1,19 @@
-
-.container2{
-    display: flex;
-    flex-direction: row; /* asse principale: x, asse secondario: y*/
-    min-height: 100vh;
-    min-width: 100vw;
+.menu {
+    display: flex; 
+    justify-content: flex-end; /* Allinea gli elementi della lista alla fine (destra) */
 }
 
-.menu p{
+.menu ul {
+    display: flex; /* Rendi il contenitore della lista (ul) flessibile */
+    padding: 0; /* Rimuovi padding predefinito */
+    margin: 0; /* Rimuovi margine predefinito */
+    list-style: none; /* Rimuovi i punti elenco */
+}
+
+.menu li {
     color: #FFFFFF;
-    font-size: 80px;
-    margin-top: 2px #343434;
-    flex-direction: row;
-    justify-content: right;
-    align-items: right;
+    font-size: 20px;
+    margin-left: 54px; /* Spaziatura tra gli elementi della lista */
 }
+
+

@@ -6,6 +6,16 @@
     background-color: #FFFFFF;
     color: #080C71;
     height: 64px;
+    font-size: 30px;
     width: 388px;
+    border-radius: 8px;
+    padding-left: 125px;
+    padding-bottom: 11px;
+    padding-top: 15px;
+    padding-right: 125px;
+}
+
+.bottone{
     border-top: 3px solid #FFFFFF;
+    padding-top: 45px;
 }
