@@ -1,19 +1,28 @@
-.menu {
-    display: flex; 
-    justify-content: flex-end; /* Allinea gli elementi della lista alla fine (destra) */
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-.menu ul {
-    display: flex; /* Rendi il contenitore della lista (ul) flessibile */
-    padding: 0; /* Rimuovi padding predefinito */
-    margin: 0; /* Rimuovi margine predefinito */
+.menu ul li{
+    color: #FFFFFF;
+    padding: 28px;
+    font-size: 20px;
+    margin-top: 87px;
     list-style: none; /* Rimuovi i punti elenco */
 }
 
-.menu li {
-    color: #FFFFFF;
-    font-size: 20px;
-    margin-left: 54px; /* Spaziatura tra gli elementi della lista */
-}
 
+.menu::before {
+    content: "";
+    background-image: url("../img/logotipo.png");
+    width: 227px;
+    height: 130px;
+    position: absolute;
+    background-size: 227px 130px;
+    background-repeat: no-repeat;
+    left: 35px;
+    top: 20px;
+
+}
 

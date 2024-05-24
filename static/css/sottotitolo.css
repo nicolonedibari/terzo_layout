@@ -2,6 +2,9 @@
     color: #FFFFFF;
     font-family: serif;
     font-size: 30px;
+    padding-top: 52px;
+    padding-bottom: 59px;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
