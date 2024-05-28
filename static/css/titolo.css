@@ -7,13 +7,6 @@
   flex-grow: 1;
 }
 
-  .main{
-    display: flex;
-    flex-grow: 2;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
 .titolo h2{
     padding-top: 19px;
@@ -22,8 +15,6 @@
     font-size: 80px;
     border-top: 3px solid #343434;
     border-bottom: 3px solid #343434;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 

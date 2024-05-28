@@ -8,7 +8,7 @@
     color: #FFFFFF;
     padding: 28px;
     font-size: 20px;
-    margin-top: 87px;
+    margin-top: 68px;
     list-style: none; /* Rimuovi i punti elenco */
 }
 
@@ -23,6 +23,6 @@
     background-repeat: no-repeat;
     left: 35px;
     top: 20px;
-
+    box-sizing: border-box;
 }
 
