@@ -1,8 +1,11 @@
 
-
-.logo{
+.logo h1{
     display: flex;
-    background-image: url(//static/img/logotipo.png);
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    width: 227px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 35px;
+    position: absolute;
+    left: 0;
 }
