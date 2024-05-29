@@ -5,11 +5,10 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+    padding: 35px;
 }
 
 .social img{
-    padding-left: 30px;
-    padding-right: 35px;
-    padding-bottom: 30px;
+    padding-left: 65px;
 }
 
